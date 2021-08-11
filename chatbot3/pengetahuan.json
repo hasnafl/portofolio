@@ -1,0 +1,112 @@
+{"pengetahuan": [
+        {"tag": "noa",
+        "patterns": ["NOA"],
+        "responses": ["NOA adalah Notice of Arrival yaitu surat pemberitahuan estimasi pajak yang harus dibayarkan"]
+        },
+        {"tag": "fob",
+        "patterns": ["fob"],
+        "responses": ["FOB adalah Harga dasar pembelian yang tertera di invoice"]
+        },
+        {"tag": "cif",
+        "patterns": ["cif"],
+        "responses": ["CIF merupakan Penjumlahan harga pembeliaan biaya angkut dan asuransi"]
+        },
+        {"tag": "freight",
+        "patterns": ["freight"],
+        "responses": ["freight merupakan Ongkos pengangkutan dari titik pelabuhan asal sampai ke pelabuhan tujuan"]
+        },
+        {"tag": "ndbpm",
+        "patterns": ["ndbpm"],
+        "responses": ["NDBPM merupakan singkatan dari Nilai Dasar Perhitungan Bea Masuk"]
+        },
+        {"tag": "dutytax",
+        "patterns": ["duty tax", "duty"],
+        "responses": ["Duty Tax adalah nilai total pajak yang harus dibayarkan pemilik barang"]
+        },
+        {"tag": "bm",
+        "patterns": ["bea", "bea masuk"],
+        "responses": ["Bea Masuk adalah pungutan negara yang dikenakan terhadap barang impor"]
+        },
+        {"tag": "pph",
+        "patterns": ["PPH"],
+        "responses": ["PPH adalah singkatan dari Pajak Penghasilan. Adapun jenis PPH 22 atau Pajak Penghasilan pasal 22 merupakan bentuk pemotongan atau pemungutan pajak yang dilakukan satu pihak terhadap wajib pajak dan berkaitan dengan kegiatan perdagangan barang. Selain itu ada juga PPH 21, yang menurut Peraturan Direktur Jenderal Pajak Nomor PER-32/PJ/2015 adalah pajak atas penghasilan berupa gaji, upah, honorarium, tunjangan dan pembayaran lain dengan nama dan dalam bentuk apapun yang sehubungan dengan pekerjaan atau jabatan, jasa, dan kegiatan yang dilakukan oleh orang pribadi subyek pajak"]
+        },
+        {"tag": "ppn",
+        "patterns": ["PPN", "pajak nilai"],
+        "responses": ["ppn atau pajak pertambahan nilai merupakan pajak yang dikenakan semua setiap pertambahan nilai dari barang atau dagang dalam peredarannya dari produsen ke konsumen"]
+        },
+        {"tag": "ppnbm",
+        "patterns": ["PPNBM", "mewah"],
+        "responses": ["ppnbm atau pajak penjualan atas barang mewah merupakan pajak yang dikenakan pada barang yang tergolong mewah yang dilakukan oleh produsen (pengusaha) untuk menghasilkan atau mengimpor barang tersebut dalam kegiatan usaha atau pekerjaannya"]
+        },
+        {"tag": "notfound",
+        "patterns": ["", "haha", "kenapa bm saya sebesar sekian?", "kenapa ppn saya sekian?", "kenapa pajak saya sangat besar?"],
+        "responses": ["untuk pertanyaan mendetail silahkan hubungi customer service kami"]
+        },
+        {"tag": "invoice",
+        "patterns": ["invoice"],
+        "responses": ["Invoice merupakan dokumen yang digunakan sebagai suatu bukti pembelian yang berisi jumlah pembayaran yang harus dibayar oleh pembeli."]
+        },
+        {"tag": "import",
+        "patterns": ["import", "impor"],
+        "responses": ["Import adalah kegiatan memasukkan barang ke dalam Daerah/kawasan Pabean. Sedangkan Daerah Pabean merupakan wilayah Republik Indonesia yang meliputi wilayah darat, perairan dan ruang udara di atasnya, serta tempat-tempat tertentu di Zona Ekonomi Ekslusif dan Landas Kontinen yang didalamnya berlaku Undang-Undang Kepabeanan. Adapun Kawasan Pabea adalah kawasan dengan batas-batas tertentu di pelabuhan laut, bandar udara atau tempat lain yang ditetapkan untuk lalu-lintas barang yang sepenuhnya berada di bawah pengawasan Direktorat Jenderal Bea dan Cukai"]
+        },
+        {"tag": "cukai",
+        "patterns": ["cukai"],
+        "responses": ["Cukai adalah pungutan negara yang dikenakan terhadap barang kena cukai. Barang Kena Cukai (BKC) itu adalah barang-barang tertentu yang mempunyai sifat atau karakteristik yang ditetapkan dalam Undang-Undang Cukai"]
+        },
+        {"tag": "jenisbkc",
+        "patterns": ["jenis barang cukai", "barang cukai"],
+        "responses": ["Menurut Undang-Undang Nomor 39 Tahun  2007,  BKC terdiri dari : etil alkohol (EA) atau etanol, minuman yang mengandung etil alkohol (MMEA), dan hasil tembakau"]
+        },
+        {"tag": "pnbp",
+        "patterns": ["pnbp"],
+        "responses": ["PNBP singkatan dari Penerimaan Negara Bukan Pajak, yaitu seluruh penerimaan Pemerintah Pusat yang tidak berasal dari penerimaan perpajakan"]
+        },
+        {"tag": "waktukepabeaaan",
+        "patterns": ["waktu kepabeaan", "waktu"],
+        "responses": ["Waktu yang dibutuhkan untuk menyelesaikan dokumen impor untuk dipakai dari menerima Pemberitahuan Pabean sampai penentuan jalur tidak lebih dari 4 jam kerja. Dalam Hal barang tersebut mendapatkan jalur merah, pemeriksaan fisik harus dilaksanakan dalam 12 jam kerja sejak menerima Pemberitahuan Pabean dan Surat Persetujuan Pengeluaran Barang harus diterbitkan dalam 48 jam kerja sejak Penerimaan Pemberitahuan Pabean, diluar kejadian yang tak biasa"]
+        },
+        {"tag": "hewanpeliharaan",
+        "patterns": ["hewan peliharaan", "hewan", "peliharaan"],
+        "responses": ["Pada dasarnya, diperbolehkan untuk membawa binatang dan tumbuhan masuk ke wilayah Indonesia, selama Saudara mendapatkan ijin dari instansi terkait seperti Karantina dan Kementerian Pertanian."]
+        },
+        {"tag": "jumlahuang",
+        "patterns": ["uang"],
+        "responses": ["Kewajiban memberitahukan jumlah uang kepada Petugas Pabean Indonesia hanya ditekankan bagi individu ketika mereka membawa masuk atau uang rupiah senilai Rp.100.000.000 atau lebih , atau mata uang asing lainnya bernilai sama."]
+        },
+        {"tag": "bawarokok",
+        "patterns": ["rokok alkohol", "rokok", "alkohol"],
+        "responses": ["Setiap orang diperbolehkan membawa rokok dan minuman beralkohol ke Indonesia dalam jumlah terbatas sebagai berikut : Maksimum 200 batang rokok atau 50 batang cerutu atau 200 gram tembakau iris; Maksimum 1 liter minuman beralkohol dan parfum dalam jumlah yang wajar atau batasan jumlah yang telah disebutkan sebelumnya tidak diwajibkan untuk membayar Kewajiban Pabean dan Cukai dan Pungutan Pajak lainnya"]
+        },
+        {"tag": "ketentuan",
+        "patterns": ["tentu impor barang", "tentu kirim barang impor", "tentu"],
+        "responses": ["Dasar Hukum PMK-182/PMK.04/2016 tentang Ketentuan Impor Barang Kiriman\n Definisi :\n Impor adalah kegiatan memasukkan barang ke dalam Daerah Pabean. Termasuk didalamnya adalah memasukkan barang melalui mekanisme barang kiriman.\n Barang Kiriman adalah barang impor yang dikirim oleh pengirim tertentu di luar negeri kepada penerima tertentu di dalam negeri.\n Perusahaan Jasa Titipan (PJT) adalah perusahaan yang memperoleh izin usaha jasa titipan dari instansi terkait serta memperoleh persetujuan untuk melaksanakan kegiatan kepabeanan dari kepala kantor pabean."]
+        },
+        {"tag": "penanganan barang kiriman",
+        "patterns": ["tangan kirim barang", "tangan"],
+        "responses": ["Pejabat Bea dan Cukai berwenang melakukan pemeriksaan pabean yang meliputi penelitian dokumen dan pemeriksaan fisik barang (official assestment);\n Pemeriksaan fisik dilakukan secara selektif dan disaksikan oleh Petugas PJT guna :\n 1. menetapkan klasifikasi dan nilai pabean atas barang kiriman;\n 2. memastikan apakah terhadap barang kiriman terkena ketentuan perijinan dari instansi teknis terkait, seperti :\n 1) Produk makanan, minuman, obat-obatan harus memperoleh persetujuan dari BPOM; dalam hal kiriman adalah untuk tujuan penelitian termasuk uji klinik, pengembangan produk, sampel registrasi, bantuan/hibah/donasi, tujuan pameran dan penggunaan sendiri/pribadi, dapat melalui mekanisme jalur khusus yakni dengan mengajukan Ijin SAS (Special Access Scheme) ke BPOM;\n 2) Produk Kosmetika harus memperoleh persetujuan dari BPOM berupa SKI (Surat Keterangan Impor);\n 3) Impor Kiriman Telepon Seluler, Komputer Genggam (Handheld) dan Komputer Tablet hanya diperbolehkan maksimal 2 (dua) buah sebagaimana diatur di Peraturan Menteri Perdagangan;\n 4) Impor Kiriman Pakaian jadi hanya diperbolehkan maksimal 10 (sepuluh) buah sebagaimana diatur di Peraturan Menteri Perdagangan;\n 5) Impor Kiriman Produk Elektronik hanya diperbolehkan maksimal 2 (dua) buah sebagaimana diatur di Peraturan Menteri Perdagangan;\n 6) Produk hewan, tumbuhan dan ikan harus memperoleh ijin pemasukan dari Badan Karantina;\n 7) Produk senjata api, air softgun dan peralatan sejenis harus mendapatkan ijin dari Kepolisian;\n Untuk memastikan apakah barang impor terkena ketentuan larangan dan pembatasan (perijinan), dapat dilihat di http://eservice.insw.go.id/ menu Lartas Information, adapun untuk Pengecualian Lartas Barang Kiriman dapat dilihat Aturan Pengecualian Lartas Barang Kiriman di Peraturan.\n Pejabat Bea dan Cukai menetapkan tarif (pembebanan bea masuk) dan nilai pabean serta menghitung BM dan PDRI yang wajib dilunasi atas barang kiriman.\n Dalam rangka penetapan nilai pabean, Pejabat Bea dan Cukai dapat meminta informasi (Notifikasi) bukti pendukung transaksi jual beli yang obyektif dan terukur kepada Penerima Barang melalui PJT, sebagai data pendukung untuk penetapan nilai barang, yaitu bukti bayar.\n Pembayaran BM dan PDRI ke Kas Negara oleh PJT dilakukan melalui Bank Devisa Persepsi dengan menggunakan SSPCP (Surat Setoran Pabean, Cukai dan Pajak)"]
+        },
+        {"tag": "prosedur",
+        "patterns": ["prosedur", "prosedur kirim barang"],
+        "responses": ["Atas barang kiriman pos wajib diberitahukan kepada Pejabat Bea dan Cukai dikantor Pabean dan hanya dapat dikeluarkan dengan persetujuan Pejabat Bea dan Cukai; Impor barang kiriman dilakukan melalui pos atau PJT dan dilakukan pemeriksaan pabean yang meliputi penelitian dokumen dan pemeriksaan fisik barang secara selektf berdasarkan manajemen resiko oleh Pejabat Bea dan Cukai; Pemeriksaan fisik barang disaksikan oleh petugas pos atau petugas PJT; Pejabat Bea dan Cukai menetapkan tarif dan nilai pabean serta menghitung bea masuk dan pajak dalam rangka impor yang wajib dilunasi atas barang kiriman melalui pos dan PJT; Barang kiriman melalui pos yang telah ditetapkan tarif dan nilai pabeannya diserahkan kepada penerima barang kiriman melalui pos setelah bea masuk dan pajak dalam rangka impor dilunasi;"]
+        },
+        {"tag": "lartas",
+        "patterns": ["larang batas", "larang", "batas"],
+        "responses": ["Barang yang dikenai aturan larangan dan pembatasan (LARTAS) adalah barang yang dilarang dan/atau dibatasi impor atau ekspornya. LARTAS diterbitkan oleh Instansi Teknis Terkait, yakni Kementerian atau lembaga pemerintah non kementerian tingkat pusat, yang menetapkan peraturan LARTAS atas impor atau ekspor dan menyampaikan peraturan tersebut kepada Menteri Keuangan."]
+        },
+        {"tag": "instansilartas",
+        "patterns": ["instansi lartas", "instansi"],
+        "responses": ["Berikut ini beberapa instansi yang menetapkan LARTAS\n 1. Kementerian Perdagangan\n 2. Badan Karantina Ikan, Pengendalian Mutu dan Keamanan Hasil Perikanan\n 3. Badan Karantina Pertanian (Karantina Hewan dan Tumbuhan)\n 4. BPOM (Badan Pengawas Obat dan Makanan)\n 5. Kementerian Kesehatan\n 6. DJBC (Direktorat Jenderal Bea dan Cukai)\n 7. BAPETEN (Badan Pengawas Tenaga Nuklir)\n 8. Bank Indonesia\n 9. Kementerian Kehutanan\n 10.Direktorat Jenderal Pos dan Telekomunikasi\n 11.Kementerian Pertanian\n 12.Kementerian Perindustrian\n 13.POLRI\n 14.Kementerian Lingkungan Hidup\n 15.Kementerian ESDM\n 16.Kementerian Pertahanan\n 17.Kementerian Budaya dan Pariwisata\n 18.Kementerian Kelautan dan Perikanan\n 19.Mabes TNI\n 20.Direktorat Jenderal Perhubungan Udara\n 21.Kementerian Perhubungan"]
+        },
+        {"tag": "fasilitas",
+        "patterns": ["Fasilitas"],
+        "responses": ["bisa dicek di PMK 199"]
+        },
+        {"tag": "terimakasih",
+        "patterns": ["terima kasih", "terimakasih"],
+        "responses": ["senang dapat membantu :)"]
+        }
+   ]
+}
+

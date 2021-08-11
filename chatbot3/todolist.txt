@@ -1,0 +1,3 @@
+record dimulai setelah masuk kedalam topik pembicaraan.
+insert harusnya get id user juga
+get id user berbarengan dengan conversation

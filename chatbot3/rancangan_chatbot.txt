@@ -1,0 +1,29 @@
+1. greeting-------->on the first chat
+2. error message-------->when NL isn't understand
+3. automated form--------->for questioning name or email
+4. NL qna---------->for natural language qna
+5. option--------->option more than 2
+6. yes/no qna------->2 option
+
+database
+--------
+NL_tab:
+>knowledge_id
+>tag
+>patterns
+>responses
+>topic_num
+
+automated_form
+>form_name
+>question+answer_type
+
+flow_tab
+>id_pro
+>process_name (greeting, error, etc)
+>order_num
+
+topic_tab
+>id
+>topic_name
+>topic_num
